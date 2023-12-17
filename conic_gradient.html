@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+        <style>
+            div {
+                height: 300px;
+                width: 300px;
+                border: 1px solid black;
+                float: left;
+                margin: 5px;
+                position: relative;
+            }
+            .p1 {
+                background-image: conic-gradient(blueviolet,lightskyblue,lightcoral);
+            }
+            .p2 {
+                background-image: conic-gradient(blueviolet 45deg,lightskyblue 90deg,lightcoral 360deg);
+            }
+            .p3 {
+                background-image: conic-gradient(blueviolet 0deg,blueviolet 90deg,lightskyblue 90deg,lightskyblue 180deg,
+                lightcoral 180deg,lightcoral 270deg,lightpink 270deg);
+            }
+            .p4 {
+                background-image: conic-gradient(from 90deg, blueviolet,lightskyblue,lightcoral);
+            }
+            .p5 {
+                background-image: repeating-conic-gradient(blueviolet 10%,lightcoral 20%);
+                border-radius: 50%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="p1">Default conic-gradient</div>
+        <div class="p2">Degree conic-gradient</div>
+        <div class="p3">non-transparency and particular Degree conic-gradient</div>
+        <div class="p4">from 90deg conic-gradient</div>
+        <div class="p5">repeating-conic-gradient</div>
+    </body>
+</html>
