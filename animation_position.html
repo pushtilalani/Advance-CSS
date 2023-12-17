@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+        <style>
+            div {
+                height: 100px;
+                width: 100px;
+                background-color: lightslategray;
+                position: relative;
+                animation-name: example;
+                animation-duration: 2s;
+                animation-delay: 2s;
+            }
+            @keyframes example {
+               0% {
+                    background-color: aqua;
+                    left: 10px;
+                    top: 0px;
+               }
+               25% {
+                    background-color: palevioletred;
+                    left: 200px;
+                    top: 0px;
+               }
+               50% {
+                    background-color: peru;
+                    left: 200px;
+                    top: 200px;
+               }
+               75% {
+                    background-color: purple;
+                    left: 0px;
+                    top: 200px;
+               }
+               100% {
+                    background-color: olive;
+                    left: 0px;
+                    top: 0px;
+               }
+            }
+        </style>
+    </head>
+    <body>
+        <div>Animation with position</div>
+    </body>
+</html>
