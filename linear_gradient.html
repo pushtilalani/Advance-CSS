@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+        <style>
+            div {
+                height: 200px;
+                width: 200px;
+                border: 1px solid black;
+                float: left;
+                margin: 10px;
+                position: relative;
+            }
+            .p1 {
+                background-image: linear-gradient(pink,blueviolet,lightskyblue);
+            }
+            .p2 {
+                background-image: linear-gradient(to right,pink,blueviolet,lightskyblue);
+            }
+            .p3 {
+                background-image: linear-gradient(to bottom right,pink,blueviolet,lightskyblue);
+            }
+            .p4 {
+                background-image: linear-gradient(90deg,pink,blueviolet,lightskyblue);
+            }
+            .p5 {
+                background-image: linear-gradient(180deg,pink,blueviolet,lightskyblue);
+            }
+            .p6 {
+                background-image: linear-gradient(pink 10%,blueviolet 30%,lightskyblue 50%);
+            }
+            .p7 {
+                background-image: repeating-linear-gradient(blueviolet 20%,lightskyblue 30%);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="p1">Default linear-gradient</div>
+        <div class="p2">linear-gradient to right</div>
+        <div class="p3">linear-gradient to bottom right</div>
+        <div class="p4">linear-gradient to 90deg</div>
+        <div class="p5">linear-gradient to 180deg</div>
+        <div class="p6">linear-gradient % wise</div>
+        <div class="p7">repeating-linear-gradient</div>
+    </body>
+</html>
