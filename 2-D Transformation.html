@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+        <style>
+            div {
+                height: 100px;
+                width: 200px;
+                border: 1px solid black;
+                float: left;
+                background-color: lightcoral;
+                margin: 2px;
+            }
+            .p1:hover {
+                transform: rotate(50deg);
+            }
+            .p2:hover {
+                transform: skew(20deg,0deg);
+            }
+            .p3:hover {
+                transform: scale(2,0.5);
+            }
+            .p4:hover {
+                transform: scaleX(2);
+            }
+            .p5:hover {
+                transform: scaleY(2);
+            }
+            .p6:hover {
+                transform: translate(50px,100px);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="p1">rotate</div>
+        <div class="p2">skew</div>
+        <div class="p3">scale</div>
+        <div class="p4">scaleX</div>
+        <div class="p5">scaleY</div>
+        <div class="p6">translate</div>
+    </body>
+</html>
