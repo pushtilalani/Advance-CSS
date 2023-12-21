@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+        <style>
+            .pagination {
+                display: inline-block;
+            }
+            .pagination a {
+                color: black;
+                text-decoration: none;
+                padding: 20px;
+                font-size: large;
+                margin: 10px;
+                border: 2px solid black;
+                border-radius: 50px;
+                background-color: lightslategray;
+            }
+            a.active {
+                background-color: palevioletred;
+            }
+            /* a:hover {
+                background-color: cadetblue;
+            } */
+            a:hover:not(.active) {
+                background-color: lightblue;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="pagination">
+            <a href="#">&laquo</a>
+            <a href="#">1</a>
+            <a href="#" class="active">2</a>
+            <a href="#">3</a>
+            <a href="#">&raquo</a>
+        </div>
+    </body>
+</html>
