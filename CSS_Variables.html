@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+        <style>
+            :root {                                /* global variable */
+                --col:blue;
+                --Bcol:lightgrey;
+            }
+            h1 {                                   /* local varaible */
+                --col:purple;
+                color:var(--col);
+            }
+            p {
+                color: var(--col);
+                background-color: var(--Bcol);
+            }
+        </style>
+    </head>
+    <body>
+        <h1>This is local variable</h1>
+        <p>This is global variable</p>
+    </body>
+</html>
